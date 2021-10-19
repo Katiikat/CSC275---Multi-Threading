@@ -17,11 +17,11 @@ constructing an instance of std::mutex. The member functions ()lock and ()unlock
 will allow you to block and then release each thread as it is executed.
 
 Assignment Requirements:
-Clearly use true multithreading.
-Create the main space base and start launching 10 Rockets at the Rocket Pad remotely.
-There should be 3 seconds between each launch.
-Then transfer launch control from Main Base to the Rocket Pad Space Cadet after the first rocket launch.
-Use an abort button from Main Base to override the Space Cadet and stop him/her from launching any further Rockets.
-Demonstrate the override action using multithreading.
-Your code must be over commented.
-You must have a good UX and keep the user over-informed of what is happening.
+  Clearly use true multithreading.
+  Create the main space base and start launching 10 Rockets at the Rocket Pad remotely.
+  There should be 3 seconds between each launch.
+  Then transfer launch control from Main Base to the Rocket Pad Space Cadet after the first rocket launch.
+  Use an abort button from Main Base to override the Space Cadet and stop him/her from launching any further Rockets.
+  Demonstrate the override action using multithreading.
+  Your code must be over commented.
+  You must have a good UX and keep the user over-informed of what is happening.
